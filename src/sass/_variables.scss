@@ -271,13 +271,9 @@ $priority-default-icons-map: (
     icon:                       tabler-icons.$ti-icon-chevron-down,
     color:                      $teal
   ),
-  medium: (
+  default: (
     icon:                       tabler-icons.$ti-icon-equal,
     color:                      $blue
-  ),
-  default: (
-    icon:                       tabler-icons.$ti-icon-exclamation-mark,
-    color:                      $pink
   ),
   high5: (
     icon:                       tabler-icons.$ti-icon-chevron-up,
