@@ -268,15 +268,11 @@ $priority-default-icons-map: (
     color:                      color.mix($teal, $green)
   ),
   low3: (
-    icon:                       tabler-icons.$ti-icon-chevron-down,
-    color:                      $teal
-  ),
-  medium: (
     icon:                       tabler-icons.$ti-icon-equal,
     color:                      $blue
   ),
   default: (
-    icon:                       tabler-icons.$ti-icon-exclamation-mark,
+    icon:                       tabler-icons.$ti-icon-player-play,
     color:                      $pink
   ),
   high5: (
