@@ -271,13 +271,13 @@ $priority-default-icons-map: (
     icon:                       tabler-icons.$ti-icon-equal,
     color:                      $blue
   ),
-  high2: (
-    icon:                       tabler-icons.$ti-icon-arrow-up,
-    color:                      $red
-  ),
   default: (
     icon:                       tabler-icons.$ti-icon-scale,
     color:                      $pink
+  ),
+  high2: (
+    icon:                       tabler-icons.$ti-icon-arrow-up,
+    color:                      $red
   ),
   highest: (
     icon:                       tabler-icons.$ti-icon-bolt,
