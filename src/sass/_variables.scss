@@ -297,13 +297,17 @@ $priority-default-icons-map: (
   )
 ) !default;
 $priority-custom-icons-map:     (
-  default: (
-    icon:                       tabler-icons.$ti-icon-scale,
-    color:                      $pink
-  ),
   low3: (
     icon:                       tabler-icons.$ti-icon-equal,
     color:                      $blue
+  ),
+  low4: (
+    icon:                       tabler-icons.$ti-icon-arrow-up,
+    color:                      $red
+  ),
+  default: (
+    icon:                       tabler-icons.$ti-icon-scale,
+    color:                      $pink
   )
 ) !default;
 $priority-icons-map:            map.merge($priority-default-icons-map, $priority-custom-icons-map);
