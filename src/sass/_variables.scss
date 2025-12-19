@@ -271,10 +271,6 @@ $priority-default-icons-map: (
     icon:                       tabler-icons.$ti-icon-equal,
     color:                      $blue
   ),
-  default: (
-    icon:                       tabler-icons.$ti-icon-player-play,
-    color:                      $pink
-  ),
   high5: (
     icon:                       tabler-icons.$ti-icon-chevron-up,
     color:                      $purple
@@ -290,6 +286,10 @@ $priority-default-icons-map: (
   high2: (
     icon:                       tabler-icons.$ti-icon-arrow-up,
     color:                      $red
+  ),
+  default: (
+    icon:                       tabler-icons.$ti-icon-scale,
+    color:                      $pink
   ),
   highest: (
     icon:                       tabler-icons.$ti-icon-bolt,
