@@ -268,23 +268,44 @@ $priority-default-icons-map: (
     color:                      color.mix($teal, $green)
   ),
   low3: (
+    icon:                       tabler-icons.$ti-icon-chevron-down,
+    color:                      $teal
+  ),
+  default: (
     icon:                       tabler-icons.$ti-icon-equal,
     color:                      $blue
   ),
+  high5: (
+    icon:                       tabler-icons.$ti-icon-chevron-up,
+    color:                      $purple
+  ),
+  high4: (
+    icon:                       tabler-icons.$ti-icon-chevron-up,
+    color:                      $orange
+  ),
   high3: (
+    icon:                       tabler-icons.$ti-icon-chevrons-up,
+    color:                      color.mix($red, $orange)
+  ),
+  high2: (
     icon:                       tabler-icons.$ti-icon-arrow-up,
     color:                      $red
-  ),
-  default: (
-    icon:                       tabler-icons.$ti-icon-scale,
-    color:                      $pink
   ),
   highest: (
     icon:                       tabler-icons.$ti-icon-bolt,
     color:                      shade($red, 600)
   )
 ) !default;
-$priority-custom-icons-map:     () !default;
+$priority-custom-icons-map:     (
+  default: (
+    icon:                       tabler-icons.$ti-icon-scale,
+    color:                      $pink
+  ),
+  low3: (
+    icon:                       tabler-icons.$ti-icon-equal,
+    color:                      $blue
+  )
+) !default;
 $priority-icons-map:            map.merge($priority-default-icons-map, $priority-custom-icons-map);
 
 $priority-default-color-map: (
